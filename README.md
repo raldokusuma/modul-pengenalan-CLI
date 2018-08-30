@@ -1,12 +1,15 @@
 # Modul Pengenalan CLI
 #
 
-###Deskripsi 
+###Deskripsi
+
 Command Line Interface (CLI) adalah sebuah text-based interface pada system operasi dimana pengguna dapat meng-input-kan sebuah command lalu mendapat respon dari system. Tiap system operasi memiliki nama yang berbeda-beda untuk CLI-nya. Pada Unix disebut bash, ash, dsb. Pada MS-DOS dinamakan Command Prompt. Pada Apple namanya adalah commandshell. Pada Microsoft dinamakan PowerShell sedangkan pengguna Linux menyebutnya terminal. Pada modul ini kita akan mempelajari tentang CLI pada Linux.
 
 #
 ###Macam - macam Command
+
 1. **ls**
+
     Perintah ls  berfungsi untuk menampilkan seluruh file yang terdapat pada direktori tersebut
     ![Alt text](images/ls.png)
 
@@ -18,11 +21,13 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
     
     ###
 2. **pwd**
+
     Perintah pwd berfungsi untuk menampilkan lokasi direktori Anda saat itu.
     ![Alt text](images/pwd.png)
     
     ###
 3. **cd [nama folder]**
+
     Perintah cd berfungsi untuk pindah dari suatu direktori ke direktori lain.
     ![Alt text](images/cd.png)
     
@@ -31,16 +36,20 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
     
     ###
 4. **mkdir [nama folder]**
+
     Perintah mkdir berfungsi untuk membuat direktori baru.
     ![Alt text](images/mkdir.png)
     
     ###
+
 5. **touch [nama file]**
+
     Perintah touch berfungsi untuk membuat file kosong baru.
     ![Alt text](images/touch.png)
     
     ###
 6. **cp [nama file1] [nama folder tujuan]**
+
     Perintah cp berfungsi untuk menyalin file dari suatu direktori ke direktori tertentu. Pada gambar di bawah terlihat bahwa di dalam direktori Videos hanya terdapat file kosong.txt.
     ![Alt text](images/cp1.png)
     
@@ -49,8 +58,12 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
     
     Pada gambar di atas dapat terlihat jika file yang bernama contohfile.txt sudah tercopy di direktori Videos.
     ###
+
 7. **mv**
+
     * **mv [nama file/folder] [nama folder tujuan]**
+
+
       Perintah mv tersebut berfungsi untuk memindahkan file/folder ke direktori tertentu. Pada gambar di bawah terlihat bahwa folder Videos hanya terdapat file kosong.txt.
       ![Alt text](images/mvpindah1.png)
       
@@ -60,16 +73,19 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
       Maka file contohfile2.txt akan dipindah ke foler Videos.
     ######
     * **mv [nama file/folder] [nama file/folder]**
+
         Perintah mv tersebut berfungsi untuk mengganti nama sebuah file atau folder
         ![Alt text](images/mvgantinama1.png)
     
     ###
 8. **rm [nama_file/folder]**
+
     Perintah rm berfungsi untuk menghapus satu atau lebih file pada direktori tersebut. Pada gambar di bawah ada file yang bernama contohfile.txt. Kita akan mencoba untuk menghapusnya.
     ![Alt text](images/rm1.png)
 
 ###
 9. **chmod [kode permission] [nama file/folder]**
+
     Perintah chmod berfungsi untuk mengganti permission dari sebuah file atau direktori. Perintah chmod mempunyai 3 rute utama:
     ![Alt text](images/chmod1.png)
     
@@ -94,12 +110,14 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
     * Mode 7 (angka ketiga) untuk publik, yang didapat dari 4+2+1. Jadi publik dapat membaca file (read), menulis file (write), dan mengeksekusi fle (exeute) tersebut.
 ###
 10. **chown [user]:[group] [nama file]**
+
     Perintah chown berfungsi untuk mengubah kepemilikan. Perintah pada gambar di bawah akan mengubah kepemilikan file “contohfile.txt”ke root.
     ![Alt text](images/chown1.png)
 
 ###
 
 11. **nano [nama file]**
+
     Perintah nano berfungsi untuk mengedit sebuah file dan membuat file baru jika file tersebut belum ada. Nano sendiri merupakan salah satu dari sekian editor di terminal UNIX.
     ![Alt text](images/nano1.png)
     
@@ -109,6 +127,7 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
 ###
 
 12. **export**
+
     Perintah export berfungsi untuk mengatur variable yang ada di linux. Biasanya kita menggunakan export untuk mem-bypass proxy melalui terminal. Contoh sintaksnya adalah
     ####
     ```
@@ -118,6 +137,7 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
     ```
 ###
 13. **man [command]**
+
     Suatu saat jika Anda butuh penjelasan/dokumentasi mengenai command line tertentu, Anda bisa bertanya kepada google atau gunakan perintah man. Misalkan ketikkan "*man ls*". Maka terminal akan berubah menjadi manual akan command tersebut seperti gambar dibawah
     ![Alt text](images/manls.png)
 
