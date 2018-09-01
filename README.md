@@ -159,6 +159,19 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
     
     ![Alt text](images/manls.png)
 
+###
+14. **apt-get [perintah] [nama paket]**
+
+    Untuk menginstall aplikasi di linux kita cukup mengetikkan perintah di atas. 
+    Misal kita hendak menginstall suatu perintah 'sl' yang perlu kita lakukan adalah 
+    1. *apt-get update* (lakukan terlebih dulu untuk menginstall sesuatu, supaya list - list package terupdate)
+
+    ![Alt text](images/apt-get-update.png)
+
+    2. *apt-get install sl* (menginstall sl)
+
+    ![Alt text](images/apt-get-install.png)
 
 
+Sekian :)
 
