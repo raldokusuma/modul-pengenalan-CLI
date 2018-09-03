@@ -83,7 +83,7 @@ Command Line Interface (CLI) adalah sebuah text-based interface pada system oper
       
       Maka file contohfile2.txt akan dipindah ke foler Videos.
     ######
-    * **mv [nama file/folder] [nama file/folder]**
+    * **mv [nama file/folder] [nama file/folder baru]**
 
         Perintah mv tersebut berfungsi untuk mengganti nama sebuah file atau folder
 
